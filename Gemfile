@@ -30,6 +30,7 @@ end
 
 group :test do
   gem "rspec-rails"             # test suite
+  #gem 'guard-spork'             # Monitoring for changes in files
   #gem 'spork-rails'             # speed up test running. Support rails 4 only from github
   gem 'rr', require: false      # mocks/stubs
   gem 'factory_girl_rails'      # fixtures replacement
